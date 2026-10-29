@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="navbar flex container mx-auto bg-base-100 shadow-sm">
+      <div className="navbar flex  bg-base-100 shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,6 +31,13 @@ const Navbar = () => {
         
       </ul>
     </div>
+    
+       <img
+      alt="Tailwind CSS hero component"
+      src="/assets/logo.png"
+      className="max-w-sm rounded-lg shadow-2xl"
+    />
+    
     <a className="btn btn-ghost text-xl">FITLOG</a>
   </div>
   <div className="navbar-center hidden lg:flex">
